@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4143D1D71BFD1775007AE07D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143D1D61BFD1775007AE07D /* AppDelegate.swift */; };
+		4143D1D91BFD1775007AE07D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143D1D81BFD1775007AE07D /* ViewController.swift */; };
+		4143D1DC1BFD1775007AE07D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4143D1DA1BFD1775007AE07D /* Main.storyboard */; };
+		4143D1DE1BFD1775007AE07D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4143D1DD1BFD1775007AE07D /* Assets.xcassets */; };
+		4143D1E11BFD1775007AE07D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4143D1DF1BFD1775007AE07D /* LaunchScreen.storyboard */; };
+		4143D1EC1BFD1775007AE07D /* RoseGolfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143D1EB1BFD1775007AE07D /* RoseGolfTests.swift */; };
+		4143D1F71BFD1775007AE07D /* RoseGolfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143D1F61BFD1775007AE07D /* RoseGolfUITests.swift */; };
+		4143D2051BFD1D33007AE07D /* GolfCourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4143D2041BFD1D33007AE07D /* GolfCourseViewController.swift */; };
+		41CA1A991C03C9EA00BB5CB1 /* HolesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CA1A981C03C9E900BB5CB1 /* HolesViewController.swift */; };
+		41CA1A9B1C03D14900BB5CB1 /* PlayGolfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CA1A9A1C03D14900BB5CB1 /* PlayGolfViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4143D1E81BFD1775007AE07D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4143D1CB1BFD1775007AE07D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4143D1D21BFD1775007AE07D;
+			remoteInfo = RoseGolf;
+		};
+		4143D1F31BFD1775007AE07D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4143D1CB1BFD1775007AE07D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4143D1D21BFD1775007AE07D;
+			remoteInfo = RoseGolf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4143D1D31BFD1775007AE07D /* RoseGolf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoseGolf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4143D1D61BFD1775007AE07D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4143D1D81BFD1775007AE07D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4143D1DB1BFD1775007AE07D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4143D1DD1BFD1775007AE07D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4143D1E01BFD1775007AE07D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4143D1E21BFD1775007AE07D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4143D1E71BFD1775007AE07D /* RoseGolfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoseGolfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4143D1EB1BFD1775007AE07D /* RoseGolfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoseGolfTests.swift; sourceTree = "<group>"; };
+		4143D1ED1BFD1775007AE07D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4143D1F21BFD1775007AE07D /* RoseGolfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoseGolfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4143D1F61BFD1775007AE07D /* RoseGolfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoseGolfUITests.swift; sourceTree = "<group>"; };
+		4143D1F81BFD1775007AE07D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4143D2041BFD1D33007AE07D /* GolfCourseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GolfCourseViewController.swift; sourceTree = "<group>"; };
+		41CA1A981C03C9E900BB5CB1 /* HolesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolesViewController.swift; sourceTree = "<group>"; };
+		41CA1A9A1C03D14900BB5CB1 /* PlayGolfViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayGolfViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4143D1D01BFD1775007AE07D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4143D1E41BFD1775007AE07D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4143D1EF1BFD1775007AE07D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4143D1CA1BFD1775007AE07D = {
+			isa = PBXGroup;
+			children = (
+				4143D1D51BFD1775007AE07D /* RoseGolf */,
+				4143D1EA1BFD1775007AE07D /* RoseGolfTests */,
+				4143D1F51BFD1775007AE07D /* RoseGolfUITests */,
+				4143D1D41BFD1775007AE07D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4143D1D41BFD1775007AE07D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4143D1D31BFD1775007AE07D /* RoseGolf.app */,
+				4143D1E71BFD1775007AE07D /* RoseGolfTests.xctest */,
+				4143D1F21BFD1775007AE07D /* RoseGolfUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4143D1D51BFD1775007AE07D /* RoseGolf */ = {
+			isa = PBXGroup;
+			children = (
+				4143D1D61BFD1775007AE07D /* AppDelegate.swift */,
+				4143D1D81BFD1775007AE07D /* ViewController.swift */,
+				4143D1DA1BFD1775007AE07D /* Main.storyboard */,
+				4143D1DD1BFD1775007AE07D /* Assets.xcassets */,
+				4143D1DF1BFD1775007AE07D /* LaunchScreen.storyboard */,
+				4143D1E21BFD1775007AE07D /* Info.plist */,
+				4143D2041BFD1D33007AE07D /* GolfCourseViewController.swift */,
+				41CA1A981C03C9E900BB5CB1 /* HolesViewController.swift */,
+				41CA1A9A1C03D14900BB5CB1 /* PlayGolfViewController.swift */,
+			);
+			path = RoseGolf;
+			sourceTree = "<group>";
+		};
+		4143D1EA1BFD1775007AE07D /* RoseGolfTests */ = {
+			isa = PBXGroup;
+			children = (
+				4143D1EB1BFD1775007AE07D /* RoseGolfTests.swift */,
+				4143D1ED1BFD1775007AE07D /* Info.plist */,
+			);
+			path = RoseGolfTests;
+			sourceTree = "<group>";
+		};
+		4143D1F51BFD1775007AE07D /* RoseGolfUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4143D1F61BFD1775007AE07D /* RoseGolfUITests.swift */,
+				4143D1F81BFD1775007AE07D /* Info.plist */,
+			);
+			path = RoseGolfUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4143D1D21BFD1775007AE07D /* RoseGolf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4143D1FB1BFD1775007AE07D /* Build configuration list for PBXNativeTarget "RoseGolf" */;
+			buildPhases = (
+				4143D1CF1BFD1775007AE07D /* Sources */,
+				4143D1D01BFD1775007AE07D /* Frameworks */,
+				4143D1D11BFD1775007AE07D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoseGolf;
+			productName = RoseGolf;
+			productReference = 4143D1D31BFD1775007AE07D /* RoseGolf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4143D1E61BFD1775007AE07D /* RoseGolfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4143D1FE1BFD1775007AE07D /* Build configuration list for PBXNativeTarget "RoseGolfTests" */;
+			buildPhases = (
+				4143D1E31BFD1775007AE07D /* Sources */,
+				4143D1E41BFD1775007AE07D /* Frameworks */,
+				4143D1E51BFD1775007AE07D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4143D1E91BFD1775007AE07D /* PBXTargetDependency */,
+			);
+			name = RoseGolfTests;
+			productName = RoseGolfTests;
+			productReference = 4143D1E71BFD1775007AE07D /* RoseGolfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4143D1F11BFD1775007AE07D /* RoseGolfUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4143D2011BFD1775007AE07D /* Build configuration list for PBXNativeTarget "RoseGolfUITests" */;
+			buildPhases = (
+				4143D1EE1BFD1775007AE07D /* Sources */,
+				4143D1EF1BFD1775007AE07D /* Frameworks */,
+				4143D1F01BFD1775007AE07D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4143D1F41BFD1775007AE07D /* PBXTargetDependency */,
+			);
+			name = RoseGolfUITests;
+			productName = RoseGolfUITests;
+			productReference = 4143D1F21BFD1775007AE07D /* RoseGolfUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4143D1CB1BFD1775007AE07D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Sam Pastoriza";
+				TargetAttributes = {
+					4143D1D21BFD1775007AE07D = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					4143D1E61BFD1775007AE07D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 4143D1D21BFD1775007AE07D;
+					};
+					4143D1F11BFD1775007AE07D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 4143D1D21BFD1775007AE07D;
+					};
+				};
+			};
+			buildConfigurationList = 4143D1CE1BFD1775007AE07D /* Build configuration list for PBXProject "RoseGolf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4143D1CA1BFD1775007AE07D;
+			productRefGroup = 4143D1D41BFD1775007AE07D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4143D1D21BFD1775007AE07D /* RoseGolf */,
+				4143D1E61BFD1775007AE07D /* RoseGolfTests */,
+				4143D1F11BFD1775007AE07D /* RoseGolfUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4143D1D11BFD1775007AE07D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4143D1E11BFD1775007AE07D /* LaunchScreen.storyboard in Resources */,
+				4143D1DE1BFD1775007AE07D /* Assets.xcassets in Resources */,
+				4143D1DC1BFD1775007AE07D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4143D1E51BFD1775007AE07D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4143D1F01BFD1775007AE07D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4143D1CF1BFD1775007AE07D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4143D2051BFD1D33007AE07D /* GolfCourseViewController.swift in Sources */,
+				4143D1D91BFD1775007AE07D /* ViewController.swift in Sources */,
+				41CA1A9B1C03D14900BB5CB1 /* PlayGolfViewController.swift in Sources */,
+				41CA1A991C03C9EA00BB5CB1 /* HolesViewController.swift in Sources */,
+				4143D1D71BFD1775007AE07D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4143D1E31BFD1775007AE07D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4143D1EC1BFD1775007AE07D /* RoseGolfTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4143D1EE1BFD1775007AE07D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4143D1F71BFD1775007AE07D /* RoseGolfUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4143D1E91BFD1775007AE07D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4143D1D21BFD1775007AE07D /* RoseGolf */;
+			targetProxy = 4143D1E81BFD1775007AE07D /* PBXContainerItemProxy */;
+		};
+		4143D1F41BFD1775007AE07D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4143D1D21BFD1775007AE07D /* RoseGolf */;
+			targetProxy = 4143D1F31BFD1775007AE07D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4143D1DA1BFD1775007AE07D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4143D1DB1BFD1775007AE07D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4143D1DF1BFD1775007AE07D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4143D1E01BFD1775007AE07D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4143D1F91BFD1775007AE07D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4143D1FA1BFD1775007AE07D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4143D1FC1BFD1775007AE07D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = RoseGolf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.Rose-Hulman.RoseGolf";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4143D1FD1BFD1775007AE07D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = RoseGolf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.Rose-Hulman.RoseGolf";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4143D1FF1BFD1775007AE07D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RoseGolfTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.Rose-Hulman.RoseGolfTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoseGolf.app/RoseGolf";
+			};
+			name = Debug;
+		};
+		4143D2001BFD1775007AE07D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RoseGolfTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.Rose-Hulman.RoseGolfTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoseGolf.app/RoseGolf";
+			};
+			name = Release;
+		};
+		4143D2021BFD1775007AE07D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RoseGolfUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.Rose-Hulman.RoseGolfUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RoseGolf;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4143D2031BFD1775007AE07D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RoseGolfUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.Rose-Hulman.RoseGolfUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RoseGolf;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4143D1CE1BFD1775007AE07D /* Build configuration list for PBXProject "RoseGolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4143D1F91BFD1775007AE07D /* Debug */,
+				4143D1FA1BFD1775007AE07D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4143D1FB1BFD1775007AE07D /* Build configuration list for PBXNativeTarget "RoseGolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4143D1FC1BFD1775007AE07D /* Debug */,
+				4143D1FD1BFD1775007AE07D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4143D1FE1BFD1775007AE07D /* Build configuration list for PBXNativeTarget "RoseGolfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4143D1FF1BFD1775007AE07D /* Debug */,
+				4143D2001BFD1775007AE07D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4143D2011BFD1775007AE07D /* Build configuration list for PBXNativeTarget "RoseGolfUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4143D2021BFD1775007AE07D /* Debug */,
+				4143D2031BFD1775007AE07D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4143D1CB1BFD1775007AE07D /* Project object */;
+}
